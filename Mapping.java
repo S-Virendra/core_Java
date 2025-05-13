@@ -5,7 +5,8 @@ public class Mapping {
         int path=sc.nextInt();
 
         if(path==1){
-           
+           System.out.println("path1");
+    
         }
 
         
