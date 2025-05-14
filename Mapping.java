@@ -2,10 +2,20 @@ import java.util.Scanner;
 public class Mapping {
     public static void main(String arr[]){
         Scanner sc=new Scanner(System.in);
-        int path=sc.nextInt();
+         System.out.println("enter the path");
+         int path;
 
+         path=sc.nextInt();
         if(path==1){
-           System.out.println("path1");
+            System.out.println("enter the next path");
+             path=sc.nextInt();
+             
+
+        }
+        else {System.out.println("invalid path");}
+        
+
+       
     
         }
 
@@ -16,4 +26,4 @@ public class Mapping {
 
     }
     
-}
+
