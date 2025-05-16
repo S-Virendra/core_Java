@@ -7,7 +7,7 @@ public class Switch1 {
         switch(choice){
             case 1:{
                  System.out.println("one");
-                 break;
+                 
 
             }
            
