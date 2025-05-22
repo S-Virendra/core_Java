@@ -36,3 +36,7 @@ public class Pattern {
     }
     
 }
+//  RAT=>  c<=r
+//LAT=>  c>=6-r
+//IRAT=> C<=6-r
+//ILAT=> c>=r
