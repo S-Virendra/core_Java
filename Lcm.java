@@ -1,11 +1,17 @@
-import java.util.Scanner;
+
 public class Lcm {
     public static void main(String[] args) {
-        Scanner obj=new Scanner(Syatem.in);
-        System.out.println("enter the two numbers");
-        int a=obj.nextInt();
-        int b=obj.nextInt();
-        for()
+        int a=15;
+        int b=25;
+        int ans=(a>b)?a:b;
+        while(true){
+          if (ans % a == 0 && ans % b == 0)
+                break;
+            ans++;
+        }
+      System.out.println(ans);
+       
+        
         
         
     }
