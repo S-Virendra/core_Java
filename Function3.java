@@ -1,25 +1,25 @@
 public class Function3 {
-    static void reverse(int arr[]){
+    static boolean Ispallindrome (int arr[]){
+        int flag=0;
+        for(int i=0;i<arr.length/2;i++){
+            if(arr[i]!=arr[arr.length-1-i]){
+                flag=1;
+                break;
+            }
+        }
+        if(flag==1){
+        return false;
+        }
+        else{
+           return true;
+
        
-        int i=0;
-        int size=5;
-         boolean flag=true;
-        while(i<arr.length){
-           if(arr[i]==arr[arr.length-1-i]){
-             flag=false;
-            System.out.println("pallindrome");
-           }
-           else{
-            System.out.println("not");
-           }
-           i++;
-           size--;
-        }}
+       }
+    }
        
     public static void main(String args[]){
 
-        int arr[]={1,2,3,4,5};
-     reverse(arr);  
-    }
-    
+        int arr[]={1,2,3,2,4};
+     System.out.println(Ispallindrome(arr));
+}
 }

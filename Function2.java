@@ -1,6 +1,6 @@
 public class Function2 {
     static int reverse(int arr[]){
-        int ans=0;
+        
         int temp;
 
         for(int i=0;i<arr.length/2;i++){

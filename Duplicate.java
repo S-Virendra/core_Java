@@ -1,20 +1,24 @@
 public class Duplicate {
     public static void main(String args[]){
-        int arr[]={4,5,5,3,4};
+        int arr[]={4,5,5,3,3,4,5,6};
         int size=arr.length;
         for(int i=0;i<size;i++){
-            boolean Dup=false;
+            boolean dup=false;
             for(int j=i+1;j<size;j++){
                 if(arr[i]==arr[j] && arr[i]!=-1){
-                    Dup=true;
+                    dup=true;
                     arr[j]=-1;
                 }
             }
+          if(!dup){
+            System.out.println(arr[i]);
+          }
 
-
-        }for(int ind=0;ind<size;ind++){
-            System.out.println(arr[ind]);
         }
+        }
+        
+
+        
 
         }
         
@@ -25,6 +29,6 @@ public class Duplicate {
 
 
 
-    }
+    
     
 
