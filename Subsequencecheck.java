@@ -14,14 +14,10 @@ public class Subsequencecheck {
     }
 
     public static void main(String[] args) {
-        String s1 = "abc";
+        String s1 = "z";
         String s2 = "a1b2c3";
 
-        if (isSubsequence(s1, s2)) {
-            System.out.println(s1 + " is a subsequence of " + s2);
-        } else {
-            System.out.println(s1 + " is NOT a subsequence of " + s2);
-        }
+     System.out.println( isSubsequence(s1, s2));
     }
 }
 
